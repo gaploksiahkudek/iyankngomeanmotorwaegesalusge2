@@ -830,7 +830,7 @@
             // 5. KONTROL POPUNDER
             // =========================================================
             const ENABLE_POPUNDER = true;
-            const POPUNDER_TYPE = 'juicyads'; // <-- DIUBAH MENJADI 'juicyads'
+            const POPUNDER_TYPE = 'monetag'; // <-- DIUBAH MENJADI 'juicyads'
 
             // =========================================================
             // 6. CEK PARAMETER URL
@@ -869,8 +869,8 @@
                 // ---------- MONETAG ----------
                 else if (POPUNDER_TYPE === 'monetag') {
                     (function(s) {
-                        s.dataset.zone = '11230084';
-                        s.src = 'https://al5sm.com/tag.min.js';
+                        s.data-clocid = '2156688';
+                        s.src = '//nappyonsetstiffness.com/on.js';
                     })([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')));
                 }
 
